@@ -6,9 +6,10 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource  # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver  #mysql驱动包
-    url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&charcterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    #    url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&charcterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://49.232.191.121:3306/springcloud?useUnicode=true&charcterEncoding=utf-8&useSSL=false #&serverTimezone=Asia/Shanghai
     username: root
-    password: lixiaoxu
+    password: lxx
 
 eureka:
   client:

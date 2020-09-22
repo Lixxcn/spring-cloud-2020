@@ -21,7 +21,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--SpringBoot整合zookeeper客户端-->
+        <!--SpringBoot整合zookeeper客户端 注：如果版本冲突要更换版本-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
